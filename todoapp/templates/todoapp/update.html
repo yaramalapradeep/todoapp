@@ -1,0 +1,10 @@
+{% extends 'todoapp/base.html' %}
+{% block content %}
+<div class="container">
+<form method='post'>
+{{uform.as_p}}
+{% csrf_token %}
+<button type="submit" class="btn btn-success">UPDATE</button>
+</form>
+</div>
+{% endblock %}

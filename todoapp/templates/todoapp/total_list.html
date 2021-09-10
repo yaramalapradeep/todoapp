@@ -1,0 +1,38 @@
+{% extends 'todoapp/base.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static ' css/demo.css' %}">
+{% block content %}
+
+<center><h3>List of items</h3></center>
+
+{% for todo in total_list %}
+
+<ul>
+<li><b>Title: </b>{{todo.title}}</li>
+<li><b>Description: </b>{{todo.details}}</li>
+<li><b>Status: </b>{{todo.status}} </li>
+<a href="/update/{{todo.id}}" class='btn btn-warning'>Update</a>
+<a href="/delete/{{todo.id}}" class='btn btn-danger'>Delete</a>
+</ul>
+
+{% endfor %}
+
+<div class="pagination">
+    <span class="step-links">
+        {% if total_list.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ total_list.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ total_list.number }} of {{ total_list.paginator.num_pages }}.
+        </span>
+
+        {% if total_list.has_next %}
+            <a href="?page={{ total_list.next_page_number }}">next</a>
+            <a href="?page={{ total_list.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+{% endblock %}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/demo.css" %}">
+    <title>{% block title %}{% endblock %}</title>
+
+    <!-- CSS only -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">To-do app</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{% url 'home' %}">Home</a></li>
+      <li><a href="{% url 'addlist' %}">Add to-do</a></li>
+      <li><a href="{% url 'tlist' %}">All list</a></li>
+      <li><a href="{% url 'dlist' %}">Completed list</a></li>
+      <li><a href="">contact</a></li>
+
+{% if request.user.is_authenticated %}:
+    <li class="topnav-right"  ><a href="{% url 'logout' %}">logout</a></li>
+    <li class="topnav-right"  ><a href="{% url 'signup' %}">Sign up</a></li>
+{% else %}
+<li class="topnav-right"><a href="{% url 'login' %}">login</a></li>
+{% endif %}
+
+
+
+
+    </ul>
+  </div>
+</nav>
+
+{% block content %}
+
+{% endblock %}
+  </body>
+</html>

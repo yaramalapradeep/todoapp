@@ -1,0 +1,14 @@
+
+{% extends 'todoapp/base.html' %}
+{% block content %}
+<div class="container">
+
+<form method='post'>
+{{sform.as_p}}
+{% csrf_token %}
+<button type="submit" class="btn btn-success">signup</button>
+<button type="reset" class="btn btn-danger">clear</button><br>
+</form>
+</div>
+</div>
+{% endblock %}

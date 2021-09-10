@@ -1,0 +1,43 @@
+{% extends 'todoapp/base.html' %}
+
+{% load static %}
+<link rel="stylesheet" href="{% static ' css/demo.css' %}">
+{% block content %}
+
+
+{% if request.user.is_authenticated %}:
+    <center><h1> Welcome to todo app {{request.user.first_name|upper}}.....!</h1></center>
+
+{% endif %}
+
+
+<center><h3>To-do List</h3></center>
+{% for todo in sdata %}
+
+
+<ul>
+<li><b>Title:    </b>{{todo.title|title}}</li>
+<a href="/update/{{todo.id}}" class='btn btn-warning'>Update</a>
+<a href="/delete/{{todo.id}}" class='btn btn-danger'>Delete</a>
+</ul>
+
+{% endfor %}
+
+<div class="pagination">
+    <span class="step-links">
+        {% if sdata.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ sdata.number }} of {{ sdata.paginator.num_pages }}.
+        </span>
+
+        {% if sdata.has_next %}
+            <a href="?page={{ sdata.next_page_number }}">next</a>
+            <a href="?page={{ sdata.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+table, th, td {
+  border: 3px solid black;
+}
+
+label,span,input
+{
+  color: white;
+}
+  h1,h3{
+  background-color: pink;
+}
+a,b{
+  color:red;
+}
+
+li{
+  color:#3210eb;
+
+}
+body {
+  background: radial-gradient(circle, black, white);
+}
+
+ol,form
+{
+  color: blue;
+}
+
+.current{
+  color:red;
+}
