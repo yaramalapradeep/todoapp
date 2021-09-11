@@ -7,14 +7,15 @@ from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
 # Create your views here.
 
-from django.conf import settings
+from django.conf import settings as conf_settings
+page_size = conf_settings.PAGE_SIZE
 
 @login_required (login_url='/login')
 def home(request):
 
 
     sdata=TodoListModel.objects.filter(user=request.user,status='START')
-    paginator=Paginator(sdata,2)
+    paginator=Paginator(sdata,page_size)
     page_number = request.GET.get('page')
 
     try:
@@ -53,6 +54,8 @@ def add_view(request):
             return render(request,'todoapp/add_list.html',{'form':form})
 
     return render(request,'todoapp/add_list.html',{'form':form})
+
+
 
 # update view for details
 @login_required(login_url='/login')

@@ -19,6 +19,7 @@ class AddForm(forms.ModelForm):
     class Meta:
         model=TodoListModel
         fields='__all__'
+    
 
 
 

@@ -18,7 +18,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR=os.path.join(BASE_DIR /'templates')
 STATIC_DIR=os.path.join(BASE_DIR / 'static')
-page_size='3'
+PAGE_SIZE = 2
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
