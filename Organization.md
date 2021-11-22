@@ -1,24 +1,284 @@
-``` mermaid.js
+
+
+```mermaid
+
+[![](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5Pcmdhbml6YXRpb24gPHwtLSBPcmdhbml6YXRpb25JbWFnZVxuT3JnYW5pemF0aW9uIDx8LS0gT3JnYW5pemF0aW9uRG9jdW1lbnRcblVzZXIgPHwtLSBPcmdhbml6YXRpb25BZG1pblxuT3JnYW5pemF0aW9uIDx8LS0gT3JnYW5pemF0aW9uQWRtaW5cbk9yZ2FuaXphdGlvbiA8fC0tIEZhY2lsaXR5XG5Vc2VyIDx8LS0gRmFjaWxpdHlcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlEb2N1bWVudFxuRmFjaWxpdHkgPHwtLSBGYWNpbGl0eUltYWdlXG5GYWNpbGl0eSA8fC0tIEZhY2lsaXR5QWRtaW5cblVzZXIgPHwtLSBGYWNpbGl0eUFkbWluXG5Pcmdhbml6YXRpb24gPHwtLSBPcFNlcnZpY2Vcbk9wU2VydmljZSAtLSBTcGVjaWFsaXphdGlvblxuT3BTZXJ2aWNlIDx8LS0gRmFjaWxpdHlPcFNlcnZpY2VcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlPcFNlcnZpY2Vcbk9yZ2FuaXphdGlvbiA8fC0tIE9wU2VydmljZVJlcXVlc3RcbkZhY2lsaXR5IDx8LS0gT3BTZXJ2aWNlUmVxdWVzdFxuT3JnYW5pemF0aW9uIDx8LS0gSXBTZXJ2aWNlXG5JcFNlcnZpY2UgPHwtLSBGYWNpbGl0eUlwU2VydmljZVxuRmFjaWxpdHkgPHwtLSBGYWNpbGl0eUlwU2VydmljZVxuT3JnYW5pemF0aW9uIDx8LS0gSXBTZXJ2aWNlUmVxdWVzdFxuRmFjaWxpdHkgPHwtLSBJcFNlcnZpY2VSZXF1ZXN0XG5GYWNpbGl0eU9wU2VydmljZSA8fC0tIE9wUGFja2FnZVNlcnZpY2VcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlPcFBhY2thZ2Vcbk9wUGFja2FnZVNlcnZpY2UgLS0gRmFjaWxpdHlPcFBhY2thZ2VcbkZhY2lsaXR5SXBTZXJ2aWNlIC0tIElwUGFja2FnZVNlcnZpY2VcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlJcFBhY2thZ2VcbklwUGFja2FnZVNlcnZpY2UgLS0gRmFjaWxpdHlJcFBhY2thZ2VcblxuICAgICAgXG5jbGFzcyBGYWNpbGl0eUlwUGFja2FnZSB7IFxuICAgIFxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArZmsgZmFjaWxpdHkgXG4gICAgK2Jvb2wgYXBwcm92ZWQgXG4gICAgK3RleHQgbm90ZSBcbiAgICArbXRvbSBzZXJ2aWNlcyBcbiAgICArYm9vbCBpc19hY3RpdmVcbiAgICArYm9vbCBjdXJyZW50IFxuICAgICtkYXRlIGRhdGVfdXBkYXRlZCBcbiAgICArZGF0ZSBkYXRlX2NyZWF0ZWQgXG4gICAgXG4gICAgfVxuICAgIFxuY2xhc3MgT3BQYWNrYWdlU2VydmljZXtcbiAgICBcbiAgICArZmsgc2VydmljZSAgXG4gICAgK2RlY2ltYWwgdW5pdF9wcmljZSBcbiAgICArZGVjaW1hbCBmbGF0X2Rpc2NvdW50IFxuICAgICtpbnQgcXVhbnRpdHlcbiAgICAraW50IHZhbGlkaXR5IFxuICAgICtwcmljZSgpXG59XG5cblxuY2xhc3MgRmFjaWxpdHkgeyBcblxuICAgK3N0cmluZyBuYW1lIFxuICAgK2ZrIG9yZ2FuaXphdGlvbiBcbiAgICtib29sIGlzX2FjdGl2ZVxuICAgK3RleHQgYWRkcmVzc1xuICAgK2NoYXIgcGhvbmUgXG4gICArZW1haWwgZW1haWwgXG4gICArdHlwZSB0eXBlXG4gICAraW1hZ2UgbG9nbyBcbiAgICt0aW1lIHN0YXJ0X3RpbWUgXG4gICArZW5kX3RpbWUgXG4gICArY3JlYXRlZF9ieSBcbiAgICt0ZXh0IG5vdGUgXG4gICArYm9vbCBhcHBsaWNhdGlvbl9zdGF0dXMgXG4gICArY2hhciBHU1RfbnVtYmVyIFxuICAgK2NoYXIgQ0lOX251bWJlciBcbiAgICtmbG9hdCBsYXRpdHVkZVxuICAgK2Zsb2F0IGxvbmdpdHVkZVxuXG4gICAgfVxuICAgIFxuY2xhc3MgRmFjaWxpdHlPcFBhY2thZ2V7XG5cbiAgIFxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArZGVjaW1hbCBwYWNrYWdlX2Rpc2NvdW50XG4gICAgK2ZrIGZhY2lsaXR5XG4gICAgK2Jvb2wgYXBwcm92ZWQgXG4gICAgK3RleHQgbm90ZVxuICAgICttdG9tIHNlcnZpY2VzIFxuICAgICtib29sIGlzX2FjdGl2ZSAgICBcbiAgICArYm9vbCBjdXJyZW50IFxuICAgICtkYXRlIGRhdGVfdXBkYXRlZCBcbiAgICArZGF0ZSBkYXRlX2NyZWF0ZWQgXG4gICAgK3ByaWNlKClcbiAgICBcbiAgICB9XG4gICAgXG4gIGNsYXNzIElwUGFja2FnZVNlcnZpY2UgeyBcbiAgXG4gICArZmsgc2VydmljZSBcbiAgICtkZWNpbWFsIHVuaXRfcHJpY2VcbiAgICtkZWNpbWFsIGZsYXRfZGlzY291bnQgXG4gICAraW50IHF1YW50aXR5XG4gICArcHJpY2UoKVxuXG4gIFxuICAgIH1cbiAgICBcbmNsYXNzIE9yZ2FuaXphdGlvbkltYWdle1xuXG5cdCtmayBPcmdhbml6YXRpb25cblx0K2ltYWdlIEltYWdlXG59XG5cbmNsYXNzIElwU2VydmljZVJlcXVlc3R7XG5cbiAgICArc3RyaW5nIGR1cmF0aW9uIFxuICAgICtzdHJpbmcgc3RhdHVzIFxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArdGV4dCBkZXNjcmlwdGlvblxuICAgICtkZWNpbWFsIGNhc2hfcHJpY2UgXG4gICAgK2ZrIGZvcl9vcmdhbml6YXRpb24gXG4gICAgK2ZrIGJ5X2ZhY2lsaXR5IFxuICAgICtkYXRlIGRhdGVfdXBkYXRlZCBcbiAgICArZGF0ZSBkYXRlX2NyZWF0ZWQgXG4gICAgK3RleHQgbm90ZVxuICAgICtzdHJpbmcgZGVwYXJ0bWVudCBcbiAgICArc3RyaW5nIHN1Yl9kZXBhcnRtZW50IFxufVxuIFxuIFxuY2xhc3MgRmFjaWxpdHlJcFNlcnZpY2V7XG5cbiAgICArdGV4dCBkdXJhdGlvbiBcbiAgICArZmsgaXBfc2VydmljZSBcbiAgICArYm9vbCBpc19hY3RpdmUgXG4gICAgK2RlY2ltYWwgY2FzaF9wcmljZSBcbiAgICArZmsgZmFjaWxpdHkgXG4gICAgXG4gICAgfVxuXG5jbGFzcyBJcFNlcnZpY2Uge1xuXG4gICAgK2ZrIG9yZ2FuaXphdGlvbiBcbiAgICArc3RyaW5nIG5hbWUgXG4gICAgK3N0cmluZyBkZXBhcnRtZW50IFxuICAgICtzdHJpbmcgc3ViX2RlcGFydG1lbnQgXG4gICAgK2Jvb2wgdmlzaWJsZV90b19jdXN0b21lciBcbiAgICArdGV4dCBkZXNjcmlwdGlvbiBcbiAgICArYm9vbCBpc19hY3RpdmUgXG4gICAgK3N0cmluZyBkdXJhdGlvbiBcbiAgICArZGVjaW1hbCBTR1NUIFxuICAgICtkZWNpbWFsIENHU1QgXG4gICAgK2RlY2ltYWwgY2FzaF9wcmljZSBcbiAgICArZGVjaW1hbCBjb3Jwb3JhdGVfcHJpY2UgXG4gICAgK2RlY2ltYWwgaW5zdXJhbmNlX3ByaWNlIFxuICAgIFxuICAgIH1cblxuXG5jbGFzcyBPcFNlcnZpY2VSZXF1ZXN0e1xuXG4gICAgK1N0cmluZyBzdGF0dXMgXG4gICAgK3N0cmluZyBuYW1lIFxuICAgICt0ZXh0IGRlc2NyaXB0aW9uIFxuICAgICtEZWNpbWFsIHByaWNlIFxuICAgICtJbnQgZHVyYXRpb24gXG4gICAgK2ZrIGZvcl9vcmdhbml6YXRpb25cbiAgICArZmsgYnlfZmFjaWxpdHkgXG4gICAgK2RhdGUgZGF0ZV91cGRhdGVkIFxuICAgICtkYXRlIGRhdGVfY3JlYXRlZCBcbiAgICArdGV4dCBub3RlIFxufVxuXG5jbGFzcyBGYWNpbGl0eU9wU2VydmljZXtcblxuXHQrZmsgb3Bfc2VydmljZSBcbiAgICArYm9vbCBpc19hY3RpdmUgXG4gICAgK2ludCBkdXJhdGlvbiBcbiAgICArRGVjaW1hbCBwcmljZVxuICAgICtmayBmYWNpbGl0eSBcbiAgICBcbit1cGRhdGVfcHJpY2VfZHVyYXRpb25fcHJhY3RpdGlvbmVyX3NlcnZpY2VzKClcbn1cblxuY2xhc3MgRmFjaWxpdHlEb2N1bWVudHtcblxuK2ZrIGZhY2lsaXR5XG4rRmlsZSBEb2N1bWVudFxuIFxuXG59XG5cbmNsYXNzIEZhY2lsaXR5QWRtaW57XG5cbitzdHJpbmcgcm9sZVxuK3N0cmluZyBmYWNpbGl0eVxuK2ZrIHVzZXJcbitib29sIGlzX2FjdGl2ZVxuK3N0aW5nIHBob25lXG5cbn1cblxuXG5cblxuXG5jbGFzcyBGYWNpbGl0eUltYWdle1xuXG4rZmsgZmFjaWxpdHlcbitpbWFnZSBJbWFnZVxuXG59XG5cbmNsYXNzIE9yZ2FuaXphdGlvbkRvY3VtZW50e1xuXG4rZmsgT3JnYW5pemF0aW9uXG4rRmlsZSBEb2N1bXRlbnRcblxufVxuICAgIFxuICAgIFxuICAgIFxuY2xhc3MgT3JnYW5pemF0aW9ue1xuICAgICAgK1N0cmluZyBOYW1lXG4gICAgICArdGV4dCBBZGRyZXNzXG4gICAgICArU3RyaW5nIFBob25lXG4gICAgICArZW1haWwgZW1haWxcbiAgICAgICtJbWFnZSBsb2dvXG4gICAgICArYm9vbCBpc19hY3RpdmVcbiAgICAgICtib29sIGlzX29wZW5fb3JnXG4gICAgICArYm9vbCB2aXNpYmxlX3RvX3ByYWN0aXRpb25lclxuICAgICAgK2Jvb2wgdmlzaWJsZV90b19wYXRpZW50IFxuICAgICAgK2ludCBBZG1pc3Npb24gQ291bnRlclxuICAgICAgK2ludCBvcF9iaWxsX2NvdW50ZXJcbiAgICAgICtpbnQgaXBfYmlsbF9jb3VudGVyXG4gICAgICAraW50IG9wX3BhY2thZ2VfYmlsbF9jb3VudGVyXG4gICAgICAraW50IG9wX3BhY2thZ2VfcmVjZWlwdF9jb3VudGVyIFxuICAgICAgK2ludCBpcF9yZWNlaXB0X2NvdW50ZXJcblxuICAgIH1cbiAgICBcbmNsYXNzIE9yZ2FuaXphdGlvbkFkbWlue1xuXG4gICAgK2ZrIE9yZ2FuaXphdGlvblxuICAgICtmayB1c2VyXG4gICAgK2Jvb2wgaXNfYWN0aXZlXG4gICAgK1N0cmluZyBQaG9uZVxufVxuXG5cbmNsYXNzIE9wU2VydmljZXtcblxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArc3RyaW5nIGRpdmlzaW9uIFxuICAgICtzdHJpbmcgc3ViX2RpdmlzaW9uIFxuICAgICsgYm9vbCB2aXNpYmxlX3RvX2N1c3RvbWVyIFxuICAgICtzdHJpbmcgZGVzY3JpcHRpb24gXG4gICAgK2ludCBkdXJhdGlvbiBcbiAgICArZmsgb3JnYW5pemF0aW9uIFxuICAgICtzdHJpbmcgaXNfYWN0aXZlXG4gICAgK2RlY2ltYWwgcHJpY2UgXG4gICAgK2Jvb2wgYnlfcGh5c2lvIFxuICAgICtib29sIGJ5X3BoeXNpY2lhblxuICAgICtib29sIGJ5X251cnNlXG4gICAgK2Jvb2wgYnlfbnV0cml0aW9uaXN0IFxuICAgICtib29sIGJ5X29jY3VwYXRpb25hbCBcbiAgICArYm9vbCBieV9zcGVlY2hfc3dhbGxvdyBcbiAgICArYm9vbCBieV9wc3ljaG9sb2d5IFxuICAgICtib29sIGJ5X3Jlc3BpcmF0b3J5XG4gICAgK210b20gc3BlY2lhbGl6YXRpb24gXG4gICAgK2RlY2ltYWwgU0dTVFxuICAgICtkZWNpbWFsIENHU1QgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcblxufSAgIFxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/edit#eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5Pcmdhbml6YXRpb24gPHwtLSBPcmdhbml6YXRpb25JbWFnZVxuT3JnYW5pemF0aW9uIDx8LS0gT3JnYW5pemF0aW9uRG9jdW1lbnRcblVzZXIgPHwtLSBPcmdhbml6YXRpb25BZG1pblxuT3JnYW5pemF0aW9uIDx8LS0gT3JnYW5pemF0aW9uQWRtaW5cbk9yZ2FuaXphdGlvbiA8fC0tIEZhY2lsaXR5XG5Vc2VyIDx8LS0gRmFjaWxpdHlcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlEb2N1bWVudFxuRmFjaWxpdHkgPHwtLSBGYWNpbGl0eUltYWdlXG5GYWNpbGl0eSA8fC0tIEZhY2lsaXR5QWRtaW5cblVzZXIgPHwtLSBGYWNpbGl0eUFkbWluXG5Pcmdhbml6YXRpb24gPHwtLSBPcFNlcnZpY2Vcbk9wU2VydmljZSAtLSBTcGVjaWFsaXphdGlvblxuT3BTZXJ2aWNlIDx8LS0gRmFjaWxpdHlPcFNlcnZpY2VcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlPcFNlcnZpY2Vcbk9yZ2FuaXphdGlvbiA8fC0tIE9wU2VydmljZVJlcXVlc3RcbkZhY2lsaXR5IDx8LS0gT3BTZXJ2aWNlUmVxdWVzdFxuT3JnYW5pemF0aW9uIDx8LS0gSXBTZXJ2aWNlXG5JcFNlcnZpY2UgPHwtLSBGYWNpbGl0eUlwU2VydmljZVxuRmFjaWxpdHkgPHwtLSBGYWNpbGl0eUlwU2VydmljZVxuT3JnYW5pemF0aW9uIDx8LS0gSXBTZXJ2aWNlUmVxdWVzdFxuRmFjaWxpdHkgPHwtLSBJcFNlcnZpY2VSZXF1ZXN0XG5GYWNpbGl0eU9wU2VydmljZSA8fC0tIE9wUGFja2FnZVNlcnZpY2VcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlPcFBhY2thZ2Vcbk9wUGFja2FnZVNlcnZpY2UgLS0gRmFjaWxpdHlPcFBhY2thZ2VcbkZhY2lsaXR5SXBTZXJ2aWNlIC0tIElwUGFja2FnZVNlcnZpY2VcbkZhY2lsaXR5IDx8LS0gRmFjaWxpdHlJcFBhY2thZ2VcbklwUGFja2FnZVNlcnZpY2UgLS0gRmFjaWxpdHlJcFBhY2thZ2VcblxuICAgICAgXG5jbGFzcyBGYWNpbGl0eUlwUGFja2FnZSB7IFxuICAgIFxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArZmsgZmFjaWxpdHkgXG4gICAgK2Jvb2wgYXBwcm92ZWQgXG4gICAgK3RleHQgbm90ZSBcbiAgICArbXRvbSBzZXJ2aWNlcyBcbiAgICArYm9vbCBpc19hY3RpdmVcbiAgICArYm9vbCBjdXJyZW50IFxuICAgICtkYXRlIGRhdGVfdXBkYXRlZCBcbiAgICArZGF0ZSBkYXRlX2NyZWF0ZWQgXG4gICAgXG4gICAgfVxuICAgIFxuY2xhc3MgT3BQYWNrYWdlU2VydmljZXtcbiAgICBcbiAgICArZmsgc2VydmljZSAgXG4gICAgK2RlY2ltYWwgdW5pdF9wcmljZSBcbiAgICArZGVjaW1hbCBmbGF0X2Rpc2NvdW50IFxuICAgICtpbnQgcXVhbnRpdHlcbiAgICAraW50IHZhbGlkaXR5IFxuICAgICtwcmljZSgpXG59XG5cblxuY2xhc3MgRmFjaWxpdHkgeyBcblxuICAgK3N0cmluZyBuYW1lIFxuICAgK2ZrIG9yZ2FuaXphdGlvbiBcbiAgICtib29sIGlzX2FjdGl2ZVxuICAgK3RleHQgYWRkcmVzc1xuICAgK2NoYXIgcGhvbmUgXG4gICArZW1haWwgZW1haWwgXG4gICArdHlwZSB0eXBlXG4gICAraW1hZ2UgbG9nbyBcbiAgICt0aW1lIHN0YXJ0X3RpbWUgXG4gICArZW5kX3RpbWUgXG4gICArY3JlYXRlZF9ieSBcbiAgICt0ZXh0IG5vdGUgXG4gICArYm9vbCBhcHBsaWNhdGlvbl9zdGF0dXMgXG4gICArY2hhciBHU1RfbnVtYmVyIFxuICAgK2NoYXIgQ0lOX251bWJlciBcbiAgICtmbG9hdCBsYXRpdHVkZVxuICAgK2Zsb2F0IGxvbmdpdHVkZVxuXG4gICAgfVxuICAgIFxuY2xhc3MgRmFjaWxpdHlPcFBhY2thZ2V7XG5cbiAgIFxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArZGVjaW1hbCBwYWNrYWdlX2Rpc2NvdW50XG4gICAgK2ZrIGZhY2lsaXR5XG4gICAgK2Jvb2wgYXBwcm92ZWQgXG4gICAgK3RleHQgbm90ZVxuICAgICttdG9tIHNlcnZpY2VzIFxuICAgICtib29sIGlzX2FjdGl2ZSAgICBcbiAgICArYm9vbCBjdXJyZW50IFxuICAgICtkYXRlIGRhdGVfdXBkYXRlZCBcbiAgICArZGF0ZSBkYXRlX2NyZWF0ZWQgXG4gICAgK3ByaWNlKClcbiAgICBcbiAgICB9XG4gICAgXG4gIGNsYXNzIElwUGFja2FnZVNlcnZpY2UgeyBcbiAgXG4gICArZmsgc2VydmljZSBcbiAgICtkZWNpbWFsIHVuaXRfcHJpY2VcbiAgICtkZWNpbWFsIGZsYXRfZGlzY291bnQgXG4gICAraW50IHF1YW50aXR5XG4gICArcHJpY2UoKVxuXG4gIFxuICAgIH1cbiAgICBcbmNsYXNzIE9yZ2FuaXphdGlvbkltYWdle1xuXG5cdCtmayBPcmdhbml6YXRpb25cblx0K2ltYWdlIEltYWdlXG59XG5cbmNsYXNzIElwU2VydmljZVJlcXVlc3R7XG5cbiAgICArc3RyaW5nIGR1cmF0aW9uIFxuICAgICtzdHJpbmcgc3RhdHVzIFxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArdGV4dCBkZXNjcmlwdGlvblxuICAgICtkZWNpbWFsIGNhc2hfcHJpY2UgXG4gICAgK2ZrIGZvcl9vcmdhbml6YXRpb24gXG4gICAgK2ZrIGJ5X2ZhY2lsaXR5IFxuICAgICtkYXRlIGRhdGVfdXBkYXRlZCBcbiAgICArZGF0ZSBkYXRlX2NyZWF0ZWQgXG4gICAgK3RleHQgbm90ZVxuICAgICtzdHJpbmcgZGVwYXJ0bWVudCBcbiAgICArc3RyaW5nIHN1Yl9kZXBhcnRtZW50IFxufVxuIFxuIFxuY2xhc3MgRmFjaWxpdHlJcFNlcnZpY2V7XG5cbiAgICArdGV4dCBkdXJhdGlvbiBcbiAgICArZmsgaXBfc2VydmljZSBcbiAgICArYm9vbCBpc19hY3RpdmUgXG4gICAgK2RlY2ltYWwgY2FzaF9wcmljZSBcbiAgICArZmsgZmFjaWxpdHkgXG4gICAgXG4gICAgfVxuXG5jbGFzcyBJcFNlcnZpY2Uge1xuXG4gICAgK2ZrIG9yZ2FuaXphdGlvbiBcbiAgICArc3RyaW5nIG5hbWUgXG4gICAgK3N0cmluZyBkZXBhcnRtZW50IFxuICAgICtzdHJpbmcgc3ViX2RlcGFydG1lbnQgXG4gICAgK2Jvb2wgdmlzaWJsZV90b19jdXN0b21lciBcbiAgICArdGV4dCBkZXNjcmlwdGlvbiBcbiAgICArYm9vbCBpc19hY3RpdmUgXG4gICAgK3N0cmluZyBkdXJhdGlvbiBcbiAgICArZGVjaW1hbCBTR1NUIFxuICAgICtkZWNpbWFsIENHU1QgXG4gICAgK2RlY2ltYWwgY2FzaF9wcmljZSBcbiAgICArZGVjaW1hbCBjb3Jwb3JhdGVfcHJpY2UgXG4gICAgK2RlY2ltYWwgaW5zdXJhbmNlX3ByaWNlIFxuICAgIFxuICAgIH1cblxuXG5jbGFzcyBPcFNlcnZpY2VSZXF1ZXN0e1xuXG4gICAgK1N0cmluZyBzdGF0dXMgXG4gICAgK3N0cmluZyBuYW1lIFxuICAgICt0ZXh0IGRlc2NyaXB0aW9uIFxuICAgICtEZWNpbWFsIHByaWNlIFxuICAgICtJbnQgZHVyYXRpb24gXG4gICAgK2ZrIGZvcl9vcmdhbml6YXRpb25cbiAgICArZmsgYnlfZmFjaWxpdHkgXG4gICAgK2RhdGUgZGF0ZV91cGRhdGVkIFxuICAgICtkYXRlIGRhdGVfY3JlYXRlZCBcbiAgICArdGV4dCBub3RlIFxufVxuXG5jbGFzcyBGYWNpbGl0eU9wU2VydmljZXtcblxuXHQrZmsgb3Bfc2VydmljZSBcbiAgICArYm9vbCBpc19hY3RpdmUgXG4gICAgK2ludCBkdXJhdGlvbiBcbiAgICArRGVjaW1hbCBwcmljZVxuICAgICtmayBmYWNpbGl0eSBcbiAgICBcbit1cGRhdGVfcHJpY2VfZHVyYXRpb25fcHJhY3RpdGlvbmVyX3NlcnZpY2VzKClcbn1cblxuY2xhc3MgRmFjaWxpdHlEb2N1bWVudHtcblxuK2ZrIGZhY2lsaXR5XG4rRmlsZSBEb2N1bWVudFxuIFxuXG59XG5cbmNsYXNzIEZhY2lsaXR5QWRtaW57XG5cbitzdHJpbmcgcm9sZVxuK3N0cmluZyBmYWNpbGl0eVxuK2ZrIHVzZXJcbitib29sIGlzX2FjdGl2ZVxuK3N0aW5nIHBob25lXG5cbn1cblxuXG5cblxuXG5jbGFzcyBGYWNpbGl0eUltYWdle1xuXG4rZmsgZmFjaWxpdHlcbitpbWFnZSBJbWFnZVxuXG59XG5cbmNsYXNzIE9yZ2FuaXphdGlvbkRvY3VtZW50e1xuXG4rZmsgT3JnYW5pemF0aW9uXG4rRmlsZSBEb2N1bXRlbnRcblxufVxuICAgIFxuICAgIFxuICAgIFxuY2xhc3MgT3JnYW5pemF0aW9ue1xuICAgICAgK1N0cmluZyBOYW1lXG4gICAgICArdGV4dCBBZGRyZXNzXG4gICAgICArU3RyaW5nIFBob25lXG4gICAgICArZW1haWwgZW1haWxcbiAgICAgICtJbWFnZSBsb2dvXG4gICAgICArYm9vbCBpc19hY3RpdmVcbiAgICAgICtib29sIGlzX29wZW5fb3JnXG4gICAgICArYm9vbCB2aXNpYmxlX3RvX3ByYWN0aXRpb25lclxuICAgICAgK2Jvb2wgdmlzaWJsZV90b19wYXRpZW50IFxuICAgICAgK2ludCBBZG1pc3Npb24gQ291bnRlclxuICAgICAgK2ludCBvcF9iaWxsX2NvdW50ZXJcbiAgICAgICtpbnQgaXBfYmlsbF9jb3VudGVyXG4gICAgICAraW50IG9wX3BhY2thZ2VfYmlsbF9jb3VudGVyXG4gICAgICAraW50IG9wX3BhY2thZ2VfcmVjZWlwdF9jb3VudGVyIFxuICAgICAgK2ludCBpcF9yZWNlaXB0X2NvdW50ZXJcblxuICAgIH1cbiAgICBcbmNsYXNzIE9yZ2FuaXphdGlvbkFkbWlue1xuXG4gICAgK2ZrIE9yZ2FuaXphdGlvblxuICAgICtmayB1c2VyXG4gICAgK2Jvb2wgaXNfYWN0aXZlXG4gICAgK1N0cmluZyBQaG9uZVxufVxuXG5cbmNsYXNzIE9wU2VydmljZXtcblxuICAgICtzdHJpbmcgbmFtZSBcbiAgICArc3RyaW5nIGRpdmlzaW9uIFxuICAgICtzdHJpbmcgc3ViX2RpdmlzaW9uIFxuICAgICsgYm9vbCB2aXNpYmxlX3RvX2N1c3RvbWVyIFxuICAgICtzdHJpbmcgZGVzY3JpcHRpb24gXG4gICAgK2ludCBkdXJhdGlvbiBcbiAgICArZmsgb3JnYW5pemF0aW9uIFxuICAgICtzdHJpbmcgaXNfYWN0aXZlXG4gICAgK2RlY2ltYWwgcHJpY2UgXG4gICAgK2Jvb2wgYnlfcGh5c2lvIFxuICAgICtib29sIGJ5X3BoeXNpY2lhblxuICAgICtib29sIGJ5X251cnNlXG4gICAgK2Jvb2wgYnlfbnV0cml0aW9uaXN0IFxuICAgICtib29sIGJ5X29jY3VwYXRpb25hbCBcbiAgICArYm9vbCBieV9zcGVlY2hfc3dhbGxvdyBcbiAgICArYm9vbCBieV9wc3ljaG9sb2d5IFxuICAgICtib29sIGJ5X3Jlc3BpcmF0b3J5XG4gICAgK210b20gc3BlY2lhbGl6YXRpb24gXG4gICAgK2RlY2ltYWwgU0dTVFxuICAgICtkZWNpbWFsIENHU1QgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcblxufSAgIFxuXG4iLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjpmYWxzZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOmZhbHNlfQ)
+
+
+
 
 classDiagram
-      Animal <|-- Duck
-      Animal <|-- Fish
-      Animal <|-- Zebra
-      Animal : +int age
-      Animal : +String gender
-      Animal: +isMammal()
-      Animal: +mate()
-      class Duck{
-          +String beakColor
-          +swim()
-          +quack()
-      }
-      class Fish{
-          -int sizeInFeet
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
+Organization <|-- OrganizationImage
+Organization <|-- OrganizationDocument
+User <|-- OrganizationAdmin
+Organization <|-- OrganizationAdmin
+Organization <|-- Facility
+User <|-- Facility
+Facility <|-- FacilityDocument
+Facility <|-- FacilityImage
+Facility <|-- FacilityAdmin
+User <|-- FacilityAdmin
+Organization <|-- OpService
+OpService -- Specialization
+OpService <|-- FacilityOpService
+Facility <|-- FacilityOpService
+Organization <|-- OpServiceRequest
+Facility <|-- OpServiceRequest
+Organization <|-- IpService
+IpService <|-- FacilityIpService
+Facility <|-- FacilityIpService
+Organization <|-- IpServiceRequest
+Facility <|-- IpServiceRequest
+FacilityOpService <|-- OpPackageService
+Facility <|-- FacilityOpPackage
+OpPackageService -- FacilityOpPackage
+FacilityIpService -- IpPackageService
+Facility <|-- FacilityIpPackage
+IpPackageService -- FacilityIpPackage
+
+      
+class FacilityIpPackage { 
+    
+    +string name 
+    +fk facility 
+    +bool approved 
+    +text note 
+    +mtom services 
+    +bool is_active
+    +bool current 
+    +date date_updated 
+    +date date_created 
+    
+    }
+    
+class OpPackageService{
+    
+    +fk service  
+    +decimal unit_price 
+    +decimal flat_discount 
+    +int quantity
+    +int validity 
+    +price()
+}
+
+
+class Facility { 
+
+   +string name 
+   +fk organization 
+   +bool is_active
+   +text address
+   +char phone 
+   +email email 
+   +type type
+   +image logo 
+   +time start_time 
+   +end_time 
+   +created_by 
+   +text note 
+   +bool application_status 
+   +char GST_number 
+   +char CIN_number 
+   +float latitude
+   +float longitude
+
+    }
+    
+class FacilityOpPackage{
+
+   
+    +string name 
+    +decimal package_discount
+    +fk facility
+    +bool approved 
+    +text note
+    +mtom services 
+    +bool is_active    
+    +bool current 
+    +date date_updated 
+    +date date_created 
+    +price()
+    
+    }
+    
+  class IpPackageService { 
+  
+   +fk service 
+   +decimal unit_price
+   +decimal flat_discount 
+   +int quantity
+   +price()
+
+  
+    }
+    
+class OrganizationImage{
+
+	+fk Organization
+	+image Image
+}
+
+class IpServiceRequest{
+
+    +string duration 
+    +string status 
+    +string name 
+    +text description
+    +decimal cash_price 
+    +fk for_organization 
+    +fk by_facility 
+    +date date_updated 
+    +date date_created 
+    +text note
+    +string department 
+    +string sub_department 
+}
+ 
+ 
+class FacilityIpService{
+
+    +text duration 
+    +fk ip_service 
+    +bool is_active 
+    +decimal cash_price 
+    +fk facility 
+    
+    }
+
+class IpService {
+
+    +fk organization 
+    +string name 
+    +string department 
+    +string sub_department 
+    +bool visible_to_customer 
+    +text description 
+    +bool is_active 
+    +string duration 
+    +decimal SGST 
+    +decimal CGST 
+    +decimal cash_price 
+    +decimal corporate_price 
+    +decimal insurance_price 
+    
+    }
+
+
+class OpServiceRequest{
+
+    +String status 
+    +string name 
+    +text description 
+    +Decimal price 
+    +Int duration 
+    +fk for_organization
+    +fk by_facility 
+    +date date_updated 
+    +date date_created 
+    +text note 
+}
+
+class FacilityOpService{
+
+	+fk op_service 
+    +bool is_active 
+    +int duration 
+    +Decimal price
+    +fk facility 
+    
++update_price_duration_practitioner_services()
+}
+
+class FacilityDocument{
+
++fk facility
++File Document
+ 
+
+}
+
+class FacilityAdmin{
+
++string role
++string facility
++fk user
++bool is_active
++sting phone
+
+}
+
+
+
+
+
+class FacilityImage{
+
++fk facility
++image Image
+
+}
+
+class OrganizationDocument{
+
++fk Organization
++File Documtent
+
+}
+    
+    
+    
+class Organization{
+      +String Name
+      +text Address
+      +String Phone
+      +email email
+      +Image logo
+      +bool is_active
+      +bool is_open_org
+      +bool visible_to_practitioner
+      +bool visible_to_patient 
+      +int Admission Counter
+      +int op_bill_counter
+      +int ip_bill_counter
+      +int op_package_bill_counter
+      +int op_package_receipt_counter 
+      +int ip_receipt_counter
+
+    }
+    
+class OrganizationAdmin{
+
+    +fk Organization
+    +fk user
+    +bool is_active
+    +String Phone
+}
+
+
+class OpService{
+
+    +string name 
+    +string division 
+    +string sub_division 
+    + bool visible_to_customer 
+    +string description 
+    +int duration 
+    +fk organization 
+    +string is_active
+    +decimal price 
+    +bool by_physio 
+    +bool by_physician
+    +bool by_nurse
+    +bool by_nutritionist 
+    +bool by_occupational 
+    +bool by_speech_swallow 
+    +bool by_psychology 
+    +bool by_respiratory
+    +mtom specialization 
+    +decimal SGST
+    +decimal CGST 
+                              
+
+}   
+
 ```
